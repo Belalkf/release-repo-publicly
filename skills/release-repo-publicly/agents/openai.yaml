@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release Repo Publicly"
+  short_description: "Help other people install and use your public repo"
+  default_prompt: "Use $release-repo-publicly to prepare this repo for GitHub and finish the release I asked for."
