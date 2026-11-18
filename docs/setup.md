@@ -2,7 +2,7 @@
 
 ## Install scope
 
-`npx skills add Belalkf/release-repo-publicly` adds the skill to the current project. Add `-g` for your user account. Use `--list` to see the skill before installing it. The [installer docs](https://github.com/vercel-labs/skills) explain supported agents, Node.js requirements and telemetry controls.
+`npx skills add Belalkf/release-repo-publicly` adds the skill to the current project. Add `-g` for your user account. Use `--list` to see the skill before installing it. Use Node.js 22.20 or newer. The [installer docs](https://github.com/vercel-labs/skills) explain supported agents, Node.js requirements and telemetry controls.
 
 The installable folder is [skills/release-repo-publicly](../skills/release-repo-publicly/SKILL.md). It includes all the skill's local references and its helper. Installing these instructions does not install Python or Git. Restart or refresh your agent if it does not find the new skill.
 

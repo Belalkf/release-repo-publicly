@@ -12,6 +12,12 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PackageTests(unittest.TestCase):
+    def test_installer_requirements_are_clear_before_setup(self):
+        for name in ['README.md', 'docs/setup.md']:
+            with self.subTest(document=name):
+                text = (ROOT / name).read_text(encoding='utf-8')
+                self.assertIn('Node.js 22.20 or newer', text)
+
     def test_maintainer_checks_have_a_working_route(self):
         entry = (ROOT / 'AGENTS.md').read_text(encoding='utf-8')
         self.assertIn('docs/setup.md#run-the-tests', entry)

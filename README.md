@@ -12,7 +12,7 @@ Run this from your project:
 npx skills add Belalkf/release-repo-publicly
 ```
 
-Choose `release-repo-publicly` and your agent. Add `-g` to use it across your projects. You need Node.js for the [skills installer](https://github.com/vercel-labs/skills). The command downloads the installer and skill; it does not publish your project.
+Choose `release-repo-publicly` and your agent. Add `-g` to use it across your projects. You need Node.js 22.20 or newer for the [skills installer](https://github.com/vercel-labs/skills). The command downloads the installer and skill; it does not publish your project.
 
 ## Give it a task
 
